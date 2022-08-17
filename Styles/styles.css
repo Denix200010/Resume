@@ -64,8 +64,11 @@ margin-left: 15px;
 
 .project-link{
     margin-left: 10px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.project-link:hover, .project-link:focus{
+    color: #FB6D3A;
+}
 
 
 .about{
@@ -220,8 +223,11 @@ margin-left: 40px;
     line-height: 24px;
     /* or 171% */
     color: #565E6A;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.contact-link:hover, .contact-link:focus{
+    color: #FB6D3A;
+}
 .tech-skills-list{
     color: #FFFFFF;
     padding: 0px;
